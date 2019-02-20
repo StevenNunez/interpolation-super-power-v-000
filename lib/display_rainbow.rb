@@ -2,5 +2,5 @@
 def display_rainbow(colors)
   puts colors.map.with_index do |_, i|
     "#{colors[i][0].upcase}: colors[i]"
-  end.joins(", ")
+  end.join(", ")
 end
