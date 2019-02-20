@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  colors.each_index do |i|
-    puts colors[i]
+  colors.map.each_index do |i|
+    "#{colors[i].[0].upcase}: colors[i]"
   end
 end
